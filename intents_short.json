@@ -1,0 +1,188 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["How can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["bye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "your age", "age?"],
+         "responses": ["1 month old"],
+         "context_set": ""
+        },
+				{"tag":"timetable",
+        "patterns":["timetable", "time-table", "time table"],
+        "responses": ["Timetables: https://timetable.ait.ie/2021/login.aspx?ReturnUrl=%2f2021%2fdefault.aspx"],
+        "context_set":""
+        },
+        {"tag": "name",
+         "patterns": ["your name", "call you", "your name?"],
+         "responses": ["ALO."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["buy", "canteen menu", "canteen", "eat"],
+         "responses": ["chocolate chip cookies for $2!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["opening hours", "your hours", "hours of operation"],
+         "responses": ["7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }, 
+        {"tag": "gratitude",
+          "patterns": ["Thanks a million", "I cannot thank you enough", "my deepest thanks", "sorted", "thanks for your support", "thank you", "I really appreciate it", "awesome", "Good stuff", "perfect", "thanks"],
+          "responses": ["Don't mention it"],
+          "context_set": ""
+        },
+        {"tag": "covid-19",
+          "patterns": ["What are the news on covid-19", "health update", "cold flu"],
+          "responses": ["url:"],
+          "context_set": ""
+        },
+        {"tag": "timetable",
+          "patterns": ["java when", "Engineering team project"],
+          "responses": ["6PM every Monday"],
+          "context_set": ""
+        },
+        {"tag": "faculties",
+         "patterns": ["faculties", "faculty"],
+         "responses" : [ "Current Faculties; Business & Hospitality, Engineering & Informatics, Science & Health, Continuing Professional & Online and Distance Learning"],
+         "context_set":""
+        },
+        { "tag":"accounting",
+        "patterns":["accounting", "accountant"],
+        "responses": ["Dept of Accounting and Business:https://www.ait.ie/courses/department/dept-of-accounting-business-computing"],
+        "context_set":""
+        },
+        { "tag":"business management",
+        "patterns": ["business management", "management"],
+        "responses": ["Dept business management: https://www.ait.ie/courses/department/dept-of-business-and-management"],
+        "context_set": ""
+        },
+        { "tag": "polymer",
+        "patterns":["polymer","polymers", "mechanical engineering", "mechanical"],
+        "responses":["Dept polymers: https://www.ait.ie/courses/department/dept-of-mechanical-polymer-engineering"],
+        "context_set":""
+        },
+        {"tag":"software",
+        "patterns":["computer engineering","software","software engineering"],
+        "responses":["Dept computer engineering: https://www.ait.ie/courses/department/dept-of-electronics-and-informatics?"],
+        "context_set":""
+        },
+        {"tag":"civil",
+        "patterns":["civil engineering", "contruction", "mineral engineering"],
+        "responses":["Dept civil engineering: https://www.ait.ie/courses/department/dept-of-civil-construction-mineral-engineering? "],
+        "context": ""
+        },
+        {"tag":"sport and health sciences",
+        "patterns": ["sport and health sciences", "health sciences", "sport and health", "health-science"],
+        "responses":["Dept sport & health science: https://www.ait.ie/courses/department/dept-of-sport-health-sciences? "],
+        "context_set":""
+        },
+        {"tag":" social science",
+        "patterns": ["social science", "social sciences"],
+        "responses": [ "Dept social science https://www.ait.ie/courses/department/dept-of-social-science "],
+        "context_set":""
+        },
+        {"tag":"nursing",
+        "patterns":["nursing","nursing and healthcare"],
+        "responses":["Dept of nursing: https://www.ait.ie/courses/department/dept-of-nursing-health-science"],
+        "context_set":""
+        },
+        {"tag":"Physical sciences",
+        "patterns":["Physical sciences","Physical science", "life and physical"],
+        "responses": ["Life and physical science dept: https://www.ait.ie/courses/department/dept-of-life-physical-science"],
+        "context_set":""
+        },
+        {"tag":"lifelong",
+        "patterns":["lifelong learning","lifelong", "life long", "mature student"],
+        "responses":["Lifelone learning dept: https://www.ait.ie/courses/department/dept-of-lifelong-learning?" ],
+        "context_set":""
+        },
+        {"tag":"contact",
+        "patterns": ["contact"],
+        "responses": ["Contact:  https://www.ait.ie/contact "],
+        "context_set":""
+        },
+        {"tag":"course",
+        "patterns":["what courses","what course","courses","course"],
+        "responses": ["Course info: https://www.ait.ie/courses/ "],
+        "context_set":""
+        },
+        {"tag":"registry",
+        "patterns":["registry", "registration"],
+        "responses": ["Registry: https://www.ait.ie/life-at-ait/registry "],
+        "context_set":""
+        },
+        {"tag":"calender",
+        "patterns":["calender", "calendar"],
+        "responses": ["Academic Calendar: https://www.ait.ie/life-at-ait/registry/AcademicCalendar "],
+        "context_set":""
+        },
+        {"tag":"student policies",
+        "patterns":["policy", "policies", "code of conduct"],
+        "responses": ["Policies: https://www.ait.ie/life-at-ait/registry/student-policies"],
+        "context_set":""
+        },
+        {"tag":"register",
+        "patterns":["register"],
+        "responses": ["Register: https://www.ait.ie/life-at-ait/registry/registration "],
+        "context_set":""
+        },
+        {"tag":"fee",
+        "patterns":["fee","fees"],
+        "responses": ["Fees: https://www.ait.ie/life-at-ait/registry/fees "],
+        "context_set":""
+        },
+        {"tag":"exam",
+        "patterns":["exam","exams"],
+        "responses": ["Exam Info: https://www.ait.ie/life-at-ait/registry/examinations"],
+        "context_set":""
+        },
+        {"tag":"studentportal",
+        "patterns":["student portal","studentportal"],
+        "responses": ["Learning Portal: https://www.ait.ie/life-at-ait/campus-services/student-learning-portal "],
+        "context_set":""
+        },
+        {"tag":"covidtracing",
+        "patterns":["covid tracing","covidtracing", "close-contact"],
+        "responses": ["COVID tracing form: https://forms.office.com/Pages/ResponsePage.aspx?id=5-9v4tcffECFDpv8ujMONQMBJAto30NGn1d7PauTlHdUQ1lDUzU4T1daVTNKS0dWVVdUSlVCQkdTMy4u "],
+        "context_set":""
+        },
+        {"tag":"international chatbot",
+        "patterns":["international chatbot","international"],
+        "responses": ["International student guide: https://www.ait.ie/uploads/downloads/AIT_International_Student_Guide_2019-20-_Large_version_8MB.pdf "],
+        "context_set":""
+        },
+        {"tag":"staff",
+        "patterns":["staff","staffs", "staffing", "lecturer"],
+        "responses": ["Staff directory: https://www.ait.ie/contact/staff-directory/ "],
+        "context_set":""
+        },
+        {"tag":"clubs",
+        "patterns":["clubs","club", "societies", "society"],
+        "responses": ["Societies: https://www.ait.ie/life-at-ait/clubs-and-societies/ "],
+        "context_set":""
+        },
+        {"tag":"handbook",
+        "patterns":["handbook","hand book"],
+        "responses": ["AIT Handbook: https://www.ait.ie/current-students/student-handbook "],
+        "context_set":""
+        },
+        {"tag":"news",
+        "patterns":["news","new"],
+        "responses": ["AIT News: https://www.ait.ie/news-and-events/ "],
+        "context_set":""
+        },
+        {"tag":"research",
+        "patterns":["research","researches"],
+        "responses": ["Research institutes at AIT: https://www.ait.ie/research-and-innovation/ "],
+        "context_set":""
+        }
+    ]
+}
