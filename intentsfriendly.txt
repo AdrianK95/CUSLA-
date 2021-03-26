@@ -1,0 +1,184 @@
+ {"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 days old!", "18 days young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me ALO.", "I'm ALO!", "I'm ALO aka Adrian Luke Oisin."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat"],
+         "respjonses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+       
+        {"tag": "gratitude",
+          "patterns": ["Thanks a million", "I cannot thank you enough", "my deepest thanks", "i am sorted", " thanks for your support", "thank you", "I really appreciate it", "That's awesome", "Good staff", "That's perfect"],
+          "responses": ["Anything for you!", "Happy I could be of help","Don't mention it", "I'm happy to be of service", "I know you would help me if I needed it", "It's my pleasure", "I'm glad to hear everything worked out well"],
+          "context_set": ""
+        },
+        {"tag": "covid-19",
+          "patterns": ["What are the news on covid-19", "health update", "cold flu"],
+          "responses": ["url:"],
+          "context_set": ""
+        },
+        {"tag": "timetable",
+          "patterns": ["java when", "Engineering team project"],
+          "responses": ["Java on your mind, Object Oriented Programming module starts at 6PM every Monday","Engineering Team Project starts at 6PM every Tuesday"],
+          "context_set": ""
+        },
+        {"tag": "faculties",
+         "patterns": ["faculties", "faculty"],
+         "responses" : [ "I'd love to tell you about our faculties. Some of the fantastic faculties we have at Athlone Institute of Technologies include, Faculty of Business & Hospitality, Faculty of Engineering & Informatics, Faculty of Science & Health,and the Faculty of Continuing, Professional, Online and Distance Learning. Is there anything else you'd like to know?"],
+         "context_set":""
+        },
+        { "tag":"accounting",
+        "patterns":["accounting", "accountant"],
+        "responses": ["We have a great accounting department! At the Department of Accounting and Business Computing our teaching staff have extensive industry experience as well as high academic standards. We’ll guide you as you gain the skills needed to achieve one of the many fulfilling roles in Business and Finance, from accounting technician, right up to Chief Financial Officer. Our Honours-level degree also qualifies for Postgraduate Diploma in Education programmes. Is there anything else I can help you with? "],
+        "context_set":""
+        },
+        { "tag":"business management",
+        "patterns": ["business management", "management"],
+        "responses": ["I'd love to tell you about our Business Department. At the Department of Business & Management, we offer you a thorough grounding in all major disciplines of business, from accounting, finance, economics, marketing to human resource management. Within our course offerings, our Bachelor of Business (Honours) ab-initio programme provides students with a one semester work placement as part of their degree studies. We also offer degree options in Business and Law, Digital Marketing and a new Bachelor of Business in International Business Management (with a choice of a European language or Chinese). On completion of your course, maybe you will progress straight into the rewarding world of work, having benefitted from our links to the industries, commercial and public bodies in the Midlands region during your studies. Can I help you with anything else."],
+        "context_set": ""
+        },
+        { "tag": "polymer",
+        "patterns":["polymer","polymers"],
+        "responses":["I'm delighted you would like to know more about the Department of Polymer, Mechanical & Design. Our polymers department are on the cutting edge of polymers research. At the Department of Polymer, Mechanical & Design we offer a range of certificates and degrees designed to meet these needs. We were pioneers in Polymer education in Ireland, and have contributed to the development of many major polymer technology industries in the Midlands, such as Athlone Extrusions, making our student placements truly valuable. Can I get any more information for you?"],
+        "context_set":""
+        },
+        {"tag":"software",
+        "patterns":["computer engineering","software","software engineering"],
+        "responses":["Possibly the greatest depeartment at Athlone Institute of Technology. At the Department of Computer & Software Engineering we have a huge variety and combination of courses. Some of our degree programmes are accredited by Engineers Ireland and others incorporate qualifications from CISCO systems. Our dedicated and motivated staff work from our new purpose-built Engineering and Informatics building, providing an excellent environment in which to reach your full potential. Our links to local employers mean that our     placements offer you real and valuable experience, and a deep understanding of the needs of the hundreds of employers who are waiting for a graduate with your skills and abilities. You can find courses in this department here:     https://www.ait.ie/courses/department/dept-of-electronics-and-informatics?"],
+        "context_set":""
+        },
+        {"tag":"civil",
+        "patterns":["civil engineering", "contruction", "mineral engineering"],
+        "responses":["At the Department of Civil, Construction and Mineral Engineering, our highly qualified staff combine their extensive industry experience with our purpose-built, state-of-the-art Faculty building and laboratories, to equip you for a well-paid, fulfilling career in this vital industry. Our courses have been developed with the specific needs of industry employers in mind, and we are one of the few Irish IoTs to offer Honours programmes to meet the changing demands of the global construction industry. You can find courses in this department here: https://www.ait.ie/courses/department/dept-of-civil-construction-mineral-engineering? "],
+        "context": ""
+        },
+        {"tag":"sport and health sciences",
+        "patterns": ["sport and health sciences", "health sciences", "sport and health"],
+        "responses":["The Department of Sport and Health Sciences offers a suite of honours degree programmes in Sports Science with Exercise Physiology, Nutrition and Health Science, Physical Activity and Health Science, and Athletic and Rehabilitation Therapy and an ordinary degree programme; Exercise and Health Science. These programmes have been designed to provide all of the skills, knowledge and experience required by sports scientists, health scientists, nutritionists, athletic and rehabilitation therapists or physical activity and health practitioners. A key feature of each of the programmes on offer is a significant placement module which can be taken in Ireland or at a number of our placement locations in North America, Europe, New Zealand and Australia. In addition, all students carry out a supervised research project in their final year of study, which is a capstone experience in the development of core competencies for the workplace. To find courses in this department use the following link: https://www.ait.ie/courses/department/dept-of-sport-health-sciences? "],
+        "context_set":""
+        },
+        {"tag":" social science",
+        "patterns": ["social science", "social sciences"],
+        "responses": [ "You’re passionate about society, how we treat our vulnerable and needy citizens. You see a fulfilling role in a Social Care setting. Or you believe in the transformative power of early years education and quality childcare. You might be bringing your life experience to the Department of Social Science as a mature learner, like 20% of our Social Care students who are 23 years old or older. You want the pioneering spirit of AIT, one of the leaders in the field of social care and social studies, with a track record of supporting research and progression to Masters-level studies and beyond. You will gain practical hands-on experience during extensive placements in residential agencies, youth-work and community-based projects. "],
+        "context_set":""
+        },
+        {"tag":"nursing",
+        "patterns":["nursing","nursing and healthcare"],
+        "responses":["The Department of Nursing and Healthcare, your qualification will be recognised and valued throughout the world. Your nursing education will be delivered in a modern, state-of-the-art facility that benefits from extensive practical placement at three general hospitals in the HSE Midlands area: Tullamore, Portlaoise, and Mullingar. Our undergraduate general and mental health nursing degrees are fully accredited by the Nursing and Midwifery Board of Ireland (NMBI). After graduation, you can continue your professional development at AIT."],
+        "context_set":""
+        },
+        {"tag":"Physical sciences",
+        "patterns":["Physical sciences","Physical science", "life and physical"],
+        "responses": ["At the Department of Life and Physical Sciences our highly qualified teaching and research staff draw on extensive industrial links and experience to cement our relationship with the numerous Biomedical Biopharma and Pharma industries in our region. Employers in these growth areas offer our students industrial placements of real value and real-world application."],
+        "context_set":""
+        },
+        {"tag":"lifelong",
+        "patterns":["lifelong learning","lifelong", "life long"],
+        "responses":["The Faculty of Continuing, Professional, Online and Distance Learning is responsible for the design and delivery of accredited, professional and non- accredited flexible learning programmes across the Institute. Using the latest technologies and effective pedagogies the faculty supports the delivery of online/blended learning programmes in particular while also delivering programmes in the traditional format.  Through this methodology the faculty ensures that the learner may access the most appropriate learning from any location and via any device (PC, Laptop or Mobile Phone).  In designing and developing programmes the faculty works closely with industry ensuring that the content and delivery format meets their needs.  In recent years, the faculty has focussed in particular on upskilling and transversal skill requirements required currently but also for the workplace of the future. The faculty programmes are delivered through the Department of Lifelong Learning. To find courses in this department use the following link: https://www.ait.ie/courses/department/dept-of-lifelong-learning?" ],
+        "context_set":""
+        },
+        {"tag":"contact",
+        "patterns": ["email", "contact", "phone number"],
+        "responses": ["Please do get in contact with us, we'd love to hear from you. You can get in touch with us by following the link www.ait.ie/contact "],
+        "context_set":""
+        },
+        {"tag":"course",
+        "patterns":["courses","course"],
+        "responses": ["It's great that you are interested in our courses. You can find mroe information about the courses on offer here: www.ait.ie/courses/ "],
+        "context_set":""
+        },
+        {"tag":"registry",
+        "patterns":["registry"],
+        "responses": ["Great question, you can find registry details here: https://www.ait.ie/life-at-ait/registry "],
+        "context_set":""
+        },
+        {"tag":"calender",
+        "patterns":["calender", "calendar"],
+        "responses": ["It's great to see you want to stay on top of your schooling, information about the academic calender can be found here: https://www.ait.ie/life-at-ait/registry/AcademicCalendar "],
+        "context_set":""
+        },
+        {"tag":"student policies",
+        "patterns":["policy", "policies"],
+        "responses": ["The policies at Athloe Institute of Technology are really important to us and it makes us really happy you want to know more. Information about the student policies can be found here: https://www.ait.ie/life-at-ait/registry/student-policies"],
+        "context_set":""
+        },
+        {"tag":"register",
+        "patterns":["register"],
+        "responses": ["Smarty we have here. Make sure you register before it's too late here: https://www.ait.ie/life-at-ait/registry/registration "],
+        "context_set":""
+        },
+        {"tag":"fee",
+        "patterns":["fee","fees"],
+        "responses": ["Oh Money is clearly important to you, please find information about fees can be found here: https://www.ait.ie/life-at-ait/registry/fees "],
+        "context_set":""
+        },
+        {"tag":"exam",
+        "patterns":["exam","exams"],
+        "responses": ["Is exam season approaching well you can find information about examinations can be found here: https://www.ait.ie/life-at-ait/registry/examinations"],
+        "context_set":""
+        },
+        {"tag":"studentportal",
+        "patterns":["student portal","studentportal"],
+        "responses": ["Trying to stay on top of your work, good to hear! Information about the student learning portal can be found here: https://www.ait.ie/life-at-ait/campus-services/student-learning-portal "],
+        "context_set":""
+        },
+        {"tag":"covidtracing",
+        "patterns":["covid tracing","covidtracing"],
+        "responses": ["The COVID tracing form can be found here: https://forms.office.com/Pages/ResponsePage.aspx?id=5-9v4tcffECFDpv8ujMONQMBJAto30NGn1d7PauTlHdUQ1lDUzU4T1daVTNKS0dWVVdUSlVCQkdTMy4u "],
+        "context_set":""
+        },
+        {"tag":"international chatbot",
+        "patterns":["international chatbot","international"],
+        "responses": ["Dia Dhuit! Whether you're a current International student or a prospective International student check out our international student guide here: ait.ie/uploads/downloads/AIT_International_Student_Guide_2019-20-_Large_version_8MB.pdf "],
+        "context_set":""
+        },
+        {"tag":"staff",
+        "patterns":["staff","staffs", "staffing"],
+        "responses": ["Have a lecturer who is inspiring you, To find any memebers of staff please use the staff directory which can be found here: https://www.ait.ie/contact/staff-directory/ "],
+        "context_set":""
+        },
+        {"tag":"clubs",
+        "patterns":["clubs","club", "societies", "society"],
+        "responses": ["Hop and too it at athlone Institute of Technology we have 28 clubs and 23 societies, if you would like more information please follow the link: https://www.ait.ie/life-at-ait/clubs-and-societies/ "],
+        "context_set":""
+        },
+        {"tag":"handbook",
+        "patterns":["handbook","hand book"],
+        "responses": ["Better abide by the law of the book you can find the Athlone Institute of Technology handbook can be found: https://www.ait.ie/current-students/student-handbook "],
+        "context_set":""
+        },
+        {"tag":"news",
+        "patterns":["news","new"],
+        "responses": ["Ooooh you'd like to keep up to date with AIT, Fantastic!! You can find any news about Athlone Institute of Technology here: https://www.ait.ie/news-and-events/ "],
+        "context_set":""
+        },
+        {"tag":"research",
+        "patterns":["research","researches"],
+        "responses": ["Have we have future researcher on our hands? That's what we like to hear, there is many different research institutes at Athlone Institute of Technology including , Bioscience Research Institute, Materials Research Institute,Applied Polymer Technologies, CISD, Software Research Institute, COMAND, if you would like more information you can find it at : https://www.ait.ie/research-and-innovation/ "],
+        "context_set":""
+        }
+    ]
+}
