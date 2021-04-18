@@ -1,6 +1,7 @@
 import csv
-from sklearn.neighbors import KNeighborsClassifier
+
 from sklearn.model_selection import train_test_split
+from sklearn.neural_network import  MLPClassifier
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -24,9 +25,10 @@ print(Y.shape)
 
 X_train,X_test, Y_train,Y_test = train_test_split(X,Y, random_state=0)
 
-clf = KNeighborsClassifier(n_neighbors =5)
-clf.fit(X_train,Y_train)
 
-print("Test set predictions: {}".format(clf.predict(X_test)))
-print("Test set accuracy: {}".format(clf.score(X_test,Y_test)))
+mlp = MLPClassifier(activation = 'relu', solver='adam',hidden_layer_sizes=[100], max_iter=1000).fit(X_train, Y_train)
+
+
+print("Test set predictions: {}".format(mlp.predict(X_test)))
+print("Test set accuracy: {}".format(mlp.score(X_test,Y_test)))
 
